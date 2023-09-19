@@ -4,8 +4,6 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { ReportsModule } from './reports/reports.module';
-import { UsersController } from './users/users.controller';
-import { ReportsController } from './reports/reports.controller';
 import { User } from './users/user.entity';
 import { Report } from './reports/report.entity';
 
@@ -20,7 +18,7 @@ import { Report } from './reports/report.entity';
     UsersModule,
     ReportsModule,
   ],
-  controllers: [AppController, UsersController, ReportsController],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
