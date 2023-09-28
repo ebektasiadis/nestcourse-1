@@ -1,4 +1,4 @@
-import cookieSession from 'cookie-session';
+const cookieSession = require('cookie-session');
 import { APP_PIPE } from '@nestjs/core';
 import { MiddlewareConsumer, Module, ValidationPipe } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
