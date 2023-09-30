@@ -28,4 +28,7 @@ export class ReportDto {
 
   @Expose()
   mileage: number;
+
+  @Expose()
+  approved: boolean;
 }
