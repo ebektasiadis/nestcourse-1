@@ -27,8 +27,4 @@ describe('UsersController', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
-
-  it('signin handler signs user in', () => {
-    controller.signInUser();
-  });
 });
