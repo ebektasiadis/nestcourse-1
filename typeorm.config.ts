@@ -14,7 +14,7 @@ if (process.env.NODE_ENVIRONMENT === 'development') {
 if (process.env.NODE_ENVIRONMENT === 'test') {
   dataSourceOptions = {
     type: 'sqlite',
-    database: 'db.sqlite',
+    database: 'testdb.sqlite',
     entities: ['**/*.entity.ts'],
     synchronize: true,
   };
