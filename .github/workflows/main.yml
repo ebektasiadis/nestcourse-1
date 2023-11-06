@@ -24,6 +24,6 @@ jobs:
    - name: Build and push Docker image
      run: |
        docker build -t ghcr.io/${{ github.repository }}/backend:${{ github.sha }} .
-       docker push ghcr.io/${{ github.repository }}/your-image:${{ github.sha }}
+       docker push ghcr.io/${{ github.repository }}/backend:${{ github.sha }}
     
    
